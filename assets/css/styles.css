@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #ff3f62;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23f5617f' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#list {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#avatar img {
+  border-radius: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+  height: 100px;
+}
+
+#username {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+#bio {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#bio a {
+  text-decoration: underline;
+}
+
+.link a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FF3F62;
+}
+
+.link a:hover {
+  color: white;
+}
+
+.link .button {
+  border-radius: 90px;
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.link .button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=styles.css.map */

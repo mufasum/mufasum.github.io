@@ -73,7 +73,6 @@ body {
 
 .link .button:hover {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }

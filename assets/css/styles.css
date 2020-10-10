@@ -12,6 +12,19 @@ body {
   margin-top: 40px;
 }
 
+#user {
+  background-image: url("/assets/img/EV9vUVgXQAAElUc.jpg");
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: grayscale(30%);
+          backdrop-filter: grayscale(30%);
+  background-position: center;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px 80px;
+  background: brightness(50%);
+}
+
 #avatar img {
   border-radius: 180px;
   display: -webkit-box;
@@ -63,7 +76,7 @@ body {
 }
 
 .link .button {
-  border-radius: 90px;
+  border-radius: 20px;
   background-color: white;
   margin: 15px;
   padding: 20px;
